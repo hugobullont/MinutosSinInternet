@@ -1,0 +1,15 @@
+{
+  "name": "minutossininternet",
+  "version": "2.0.0",
+  "description": "New version of MinutosSinInternet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hugobullont/MinutosSinInternet"
+  },
+  "author": "hugobullont",
+  "license": "MIT"
+}
