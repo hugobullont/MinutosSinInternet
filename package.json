@@ -11,5 +11,8 @@
     "url": "github.com/hugobullont/MinutosSinInternet"
   },
   "author": "hugobullont",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ping": "^0.2.3"
+  }
 }
