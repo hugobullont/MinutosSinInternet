@@ -20,7 +20,7 @@ let logger = fs.createWriteStream('MinutosSinInternet.txt', {
 const postToTXT = () => {
     let minutes = (dateWithInternet.getTime() - dateWithOutInternet.getTime()) / 60000;
     total = total + minutes;
-    let message = `\n${dateWithOutInternet.toLocaleString} - ${dateWithInternet.toLocaleString} - ${minutes} minutos sin internet. Total Acumulado: ${total} minutos.`;
+    let message = `\n${dateWithOutInternet.toLocaleString()} - ${dateWithInternet.toLocaleString()} - ${minutes} minutos sin internet. Total Acumulado: ${total} minutos.`;
     logger.write(message);
 }
 
