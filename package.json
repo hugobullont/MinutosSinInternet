@@ -13,6 +13,7 @@
   "author": "hugobullont",
   "license": "MIT",
   "dependencies": {
+    "nexe": "^3.3.7",
     "ping": "^0.2.3"
   }
 }
