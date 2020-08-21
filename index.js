@@ -39,7 +39,8 @@ const checkInternet  = () => {
                 dateWithOutInternet = new Date();
             }
         }
-        console.log(res.time);
+        let dummyDate = new Date();
+        console.log(dummyDate.toLocaleString(), res.time);
     });
 }
 
